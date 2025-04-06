@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# 🚨 EmpowerHer – Women’s Travel Safety App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EmpowerHer is an AI-powered, blockchain-secured mobile application designed to enhance women's safety during travel. It acts as a **virtual travel companion**, proactively guiding users through safer routes, alerting emergency contacts, and securely storing incident evidence.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧠 Problem Statement
 
-### `npm start`
+Despite various safety apps, women continue to face threats while traveling due to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Lack of **real-time safety alerts**
+- No **intelligent route planning**
+- Weak **legal evidence systems**
+- Absence of **verified support and community vigilance**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🌟 Solution
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+EmpowerHer provides an end-to-end ecosystem for travel safety using:
 
-### `npm run build`
+- 🔒 **Blockchain** for tamper-proof evidence
+- 🧠 **AI** for smart route planning and risk prediction
+- 🗺️ **Live crime heatmaps** using crowdsourced + police data
+- 📲 **SOS alerts** with live GPS & camera activation
+- 🧑‍🤝‍🧑 **Crowdsourced reporting** and encrypted community chat
+- 🧑‍⚖️ **Legal helpline** and emergency support with follow-up care
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🚨 **Smart SOS Button:**  
+  Sends alerts to contacts and local authorities. Activates encrypted video/audio recording even when the screen is off.
 
-### `npm run eject`
+- 🧭 **AI-Powered Safe Route Planner:**  
+  Suggests paths that avoid high-crime zones based on real-time data and time/location context.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🔥 **Dynamic Crime Heatmaps:**  
+  Combines live police reports and user-submitted data to map local risks.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🤝 **Community Networking:**  
+  Users can report incidents, share Safe Zones, and chat securely about local safety updates.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 🎓 **Education Hub:**  
+  Provides legal rights guides, self-defense tutorials, and emergency protocols.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- 🧑‍⚖️ **24/7 Multilingual Helpline:**  
+  Connects users via video/audio to verified legal and trauma support professionals.
 
-## Learn More
+- 🔗 **Blockchain Storage:**  
+  Securely stores incident media with timestamps and geolocation for court-admissible evidence. Uses Zero Knowledge Proofs to protect user identity.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📱 Tech Stack
 
-### Code Splitting
+| Tech | Usage |
+|------|-------|
+| **Flutter / React Native** | Frontend (Mobile App) |
+| **Node.js + Firebase** | Backend Services |
+| **Firestore** | Real-time Database |
+| **TensorFlow / Gemini API** | AI for route & risk prediction |
+| **Google Maps API** | Navigation & geolocation |
+| **IPFS / Ethereum** | Blockchain-based evidence storage |
+| **WebRTC / Twilio** | Real-time Helpline Communication |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🔄 MVP Features (Live : https://gdg-solution-challenge-taupe.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [x] SOS button with alert system  
+- [x] Route planner with mock AI-based risk prediction  
+- [x] Heatmap UI with simulated data  
+- [ ] Blockchain video storage integration  
+- [ ] Encrypted community chat  
+- [ ] Legal helpline with AI routing
+  
+---
 
-### Making a Progressive Web App
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/empowerher.git
+cd empowerher
 
-### Advanced Configuration
+# Install dependencies
+npm install  # or flutter pub get for Flutter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the development server
+npm start    # or flutter run
