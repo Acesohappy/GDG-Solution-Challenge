@@ -57,13 +57,13 @@ EmpowerHer provides an end-to-end ecosystem for travel safety using:
 
 | Tech | Usage |
 |------|-------|
-| **Flutter / React Native** | Frontend (Mobile App) |
+| **React Native** | Frontend (Mobile App) |
 | **Node.js + Firebase** | Backend Services |
 | **Firestore** | Real-time Database |
-| **TensorFlow / Gemini API** | AI for route & risk prediction |
+| **TensorFlow** | AI for route & risk prediction |
 | **Google Maps API** | Navigation & geolocation |
 | **IPFS / Ethereum** | Blockchain-based evidence storage |
-| **WebRTC / Twilio** | Real-time Helpline Communication |
+| **Twilio** | Real-time Helpline Communication |
 
 ---
 
@@ -72,9 +72,9 @@ EmpowerHer provides an end-to-end ecosystem for travel safety using:
 - [x] SOS button with alert system  
 - [x] Route planner with mock AI-based risk prediction  
 - [x] Heatmap UI with simulated data  
-- [ ] Blockchain video storage integration  
-- [ ] Encrypted community chat  
-- [ ] Legal helpline with AI routing
+- [x] Blockchain video storage integration  
+- [x] Encrypted community chat  
+- [x] Legal helpline with AI routing
   
 ---
 
